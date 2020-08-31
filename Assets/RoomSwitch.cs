@@ -24,12 +24,13 @@ public class RoomSwitch : MonoBehaviour {
 
 		if(Input.GetKeyDown("2"))
         {
-			this.transform.position = new Vector3(0, 1, 0);
+			this.transform.position = new Vector3(55, 2, 0);
         }
 
 		if(Input.GetKeyDown("1"))
         {
-			this.transform.position = new Vector3(0, 1, 0);
+			this.transform.position = new Vector3(2, 2, 0);
+
         }
 	}
 }
