@@ -13,7 +13,7 @@ public class LightScript : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        if(other.gameObject.tag == "Player" && Input.GetButton("0"))
+        if(other.gameObject.tag == "Player" && Input.GetButtonDown("GrabLight"))
         {
             game.Flush();
         }
